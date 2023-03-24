@@ -1,0 +1,78 @@
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* General styles */
+body {
+	background-image:url("job.jpg");
+	background-size:1400px 1600px;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+}
+
+h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 2rem;
+}
+
+.job-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.job {
+	background-color: #f1f1f1;
+	padding: 1rem;
+	margin: 1rem;
+	flex-basis: calc(33.33% - 2rem);
+}
+
+.job h3 {
+	margin-bottom: 0.5rem;
+}
+
+.job p {
+	margin-bottom: 0.5rem;
+}
+
+.job a {
+	display: block;
+	background-color: #333;
+	color: #fff;
+	padding: 0.5rem;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 1rem;
+}
+
+.job a:hover {
+	background-color: #666;
+}

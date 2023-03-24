@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Registration Form</title>
+  </head>
+  <body bgcolor="pink">
+  <center>
+    <h1>Job Registration Form</h1>
+    <form action="submit-job.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      </br>
+      </br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      </br>
+      </br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+      </br>
+      </br>
+      <label for="resume">Resume:</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+      </br>
+       </br>
+      <label for="coverletter">Cover Letter:</label>
+      <input type="file" id="coverletter" name="coverletter" accept=".pdf,.doc,.docx" required>
+       </br>
+       </br>
+      <input type="submit" value="Submit">
+    </form>
+    </center>
+  </body>
+</html>
